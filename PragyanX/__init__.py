@@ -105,7 +105,7 @@ HEROKU_APP_NAME = None
 GIT_TOKEN = None
 BOT_VER = "0.3.35@build"
 BRANCH = "dev"
-REPO_URL = "https://github.com/TeamKillerX/TigerX-Userbot"
+REPO_URL = "https://github.com/PragyanIITIAN/PragyanX"
 RAPI_API_KEY = "ce36c261f1mshb4a0a55aaca548ep12c9f3jsn3d6761cb63fb" # you can fork this // you can just change the api key here
 
 if not BOT_TOKEN:
@@ -116,7 +116,7 @@ app = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="TigerX/modules/bot"),
+    plugins=dict(root="PragyanX/modules/bot"),
     in_memory=True,
 )
 
